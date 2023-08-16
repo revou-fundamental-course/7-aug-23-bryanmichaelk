@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator Segitiga</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar">
+      <a href="#luas">Luas</a>
+      <a href="#keliling">Keliling</a>
+    </nav>
+    <!-- Navbar End -->
+    <header>
+      <h1>Kalkulator <span>Luas</span> dan <span>Keliling</span> Segitiga</h1>
+    </header>
+    <main>
+      <div id="luas"></div>
+      <section class="luas">
+        <h2>Kalkulator <span>Luas</span></h2>
+        <section class="image">
+          <img src="img/segitiga.jpg" alt="Gambar Segitiga" />
+        </section>
+        <section class="input-section">
+          <label for="tinggi-input">Tinggi Segitiga</label>
+          <input type="number" id="tinggi-input" placeholder="0" />
+          <label for="alas-input">Alas Segitiga</label>
+          <input type="number" id="alas-input" placeholder="0" />
+        </section>
+        <section>
+          <button onclick="hitungLuas()">Hitung</button>
+          <button onclick="resetButton1()">Reset</button>
+        </section>
+        <section id="pembahasan1" class="pembahasan1">
+        </section>
+      </section>
+      <div id="keliling"></div>
+      <section class="keliling">
+        <h2>Kalkulator <span>Keliling</span></h2>
+        <section class="image">
+          <img src="img/segitiga.jpg" alt="Gambar Segitiga" />
+        </section>
+        <section class="input-section">
+          <label for="A">A</label>
+          <input type="number" id="A" placeholder="0" />
+          <label for="B">B</label>
+          <input type="number" id="B" placeholder="0" />
+          <label for="C">C</label>
+          <input type="number" id="C" placeholder="0" />
+        </section>
+        <section>
+          <button onclick="hitungKeliling()">Hitung</button>
+          <button onclick="resetButton2()">Reset</button>
+        </section>
+        <section id="pembahasan2" class="pembahasan2">
+
+        </section>
+      </section>
+        
+      <section>
+    </main>
+  
+  </body>
+</html>
